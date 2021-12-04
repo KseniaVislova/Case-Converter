@@ -2,17 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Case Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="title">Case Converter</div>
-    <textarea></textarea>
-    <div>
-        <button id="upper-case">Upper Case</button>
-        <button id="lower-case">Lower Case</button>
-        <button id="proper-case">Proper Case</button>
-        <button id="sentence-case">Sentence Case</button>
-        <button id="save-text-file">Save Text File</button>
+    <div class="container">
+        <div class="wrapper">
+            <h1 class="title">Case Converter</h1>
+            <textarea></textarea>
+            <div class="btn__wrapper">
+                <button class="btn" id="upper-case">Upper Case</button>
+                <button class="btn" id="lower-case">Lower Case</button>
+                <button class="btn" id="proper-case">Proper Case</button>
+                <button class="btn" id="sentence-case">Sentence Case</button>
+                <button class="btn" id="save-text-file">Save Text File</button>
+            </div>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>

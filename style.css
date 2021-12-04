@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: brown;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    border: 3px solid #000;
+}
+
+.title {
+    font-size: 3rem;
+    font-family: 'Share Tech Mono', monospace;
+    text-transform: uppercase;
+}
+
+textarea {
+    width: calc(100% - 3rem);
+    min-height: 150px;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    background-color: antiquewhite;
+    border: 3px solid #000;
+}
+
+.btn__wrapper {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    background-color: transparent;
+    border: 3px solid #000;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.btn:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.btn:hover {
+    color: brown;
+    background-color: black;
+    transition: all 1s;
+}
+
+/*@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+}*/
+
